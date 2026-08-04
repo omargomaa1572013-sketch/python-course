@@ -1,9 +1,9 @@
-n = int(input())
+n = int(input("Enter the number of polyhedra: "))
 
 total = 0
 
 for i in range(n):
-    s = input()
+    s = input("Enter the name of the polyhedron: ")
 
     if s == "Tetrahedron":
         total += 4
